@@ -1,14 +1,13 @@
-// #include <stdio.h>
+#include "libft.h"
 
 // fill the first n bytes with the value of c
 
 void    *ft_memset(void *s, int c, size_t n)
 {
     size_t i = 0;
-    char *p = (char *)s;
     while (i < n)
     {
-        p[i] = (unsigned char)c;
+        ((unsigned char *)s)[i] = (unsigned char)c;
         i++;
     }
     return (s);
@@ -50,3 +49,4 @@ void    *ft_memset(void *s, int c, size_t n)
     // result is (16843009 three times) and not 1
 
 } */
+
