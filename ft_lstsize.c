@@ -1,6 +1,6 @@
 #include "libft.h"
 
-unsigned int ft_lstsize(t_list *lst)
+/* unsigned int ft_lstsize(t_list *lst)
 {
     unsigned int count;
 
@@ -11,9 +11,9 @@ unsigned int ft_lstsize(t_list *lst)
         lst = lst->next;
     }
     return (count);
-}
+} */
 
-int main(void)
+/* int main(void)
 {
     t_list *head = NULL;
     t_list *a = ft_lstnew("A");
@@ -30,4 +30,20 @@ int main(void)
     free(b);
     free(a);
     return (0);
+} */
+
+unsigned int ft_lstsize(t_list *lst)
+{
+    unsigned int size;
+
+    size = 0;
+    //lst is the head and holds the adress of the first node.
+    if (!lst)
+        return (0);
+    while(lst)
+    {
+        size++;
+        lst = lst->next;
+    }
+    return (size);
 }

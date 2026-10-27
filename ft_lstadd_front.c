@@ -5,13 +5,13 @@
     struct s_list   *next;
 }   t_list; */
 
-void ft_lstadd_front(t_list **lst, t_list *new)
+/* void ft_lstadd_front(t_list **lst, t_list *new)
 {
     if (!lst || !new)
         return ;
     new->next = *lst;
     *lst = new;
-}
+} */
 
 /* int main()
 {
@@ -37,3 +37,14 @@ void ft_lstadd_front(t_list **lst, t_list *new)
     free(c);
     return (0);
 } */
+
+void ft_lstadd_front(t_list **lst, t_list *new)
+{
+    //!lst : check if we get a valid adress of head
+    //!lst = &head
+    //!new : check if new is a valid node to add
+    if (!lst || !new)
+        return;
+    new->next = *lst;
+    *lst = new;
+}
