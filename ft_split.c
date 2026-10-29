@@ -104,7 +104,7 @@ char **ft_split(char const *s, char c)
     return (result);
 }
 
-int main(void)
+/* int main(void)
 {
     char **result;
 
@@ -116,7 +116,7 @@ int main(void)
     free(result[1]);
     free(result);
     return (0);
-}
+} */
 
 /* int main()
 {

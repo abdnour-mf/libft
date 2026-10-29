@@ -12,7 +12,7 @@ t_list *ft_lstnew(void *content)
     return (new);
 }
 
-int main()
+/* int main()
 {
     //char *str = ;
     t_list *node = ft_lstnew("hello");
@@ -24,7 +24,7 @@ int main()
 
     free(node);
     return (0);
-}
+} */
 
 /* t_list *ft_lstnew(void *content)
 {

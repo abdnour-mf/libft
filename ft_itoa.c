@@ -30,7 +30,7 @@ char *ft_itoi(int n)
     return (num);
 }
 
-int main()
+/* int main()
 {
     printf("%d\n", count_digits(-999));
     printf("%d\n", count_digits(-99));
@@ -38,4 +38,4 @@ int main()
     printf("%d\n", count_digits(-9));
     printf("%d\n", count_digits(-1));
     return 0;
-}
+} */

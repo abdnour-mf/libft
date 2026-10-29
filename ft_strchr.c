@@ -17,7 +17,7 @@ char *ft_strchr(const char *s, int c)
 #include <stdio.h>
 int main()
 {
-    /* char s[] = "hello world";
+     char s[] = "hello world";
     char c = 'o';
     printf("%s\n", ft_strchr(s,c)); 
 
