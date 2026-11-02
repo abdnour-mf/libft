@@ -112,3 +112,8 @@ int	main(void)
 
 	return (0);
 } */
+// const char *src
+//char * const src
+
+//srt[i] i++ *(str + i)
+//i[str] i++ *(i + str)

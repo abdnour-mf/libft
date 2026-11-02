@@ -19,6 +19,7 @@ void	*ft_memmove(void *dst, const void *src, size_t n)
 	}
 	return (dst);
 }
+
 /* #include <stdio.h>
 #include <string.h>
 
